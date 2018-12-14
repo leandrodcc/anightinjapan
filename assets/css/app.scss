@@ -34,10 +34,17 @@ h2 {
     font-weight: 700;
 }
 
-nav a, p a {
+nav a {
     color: $black;
     text-decoration: none;
+}
+
+nav a.selected, p a {
     border-bottom: solid 3px $red;
+}
+
+img {
+    max-width: 780px;
 }
 
 header {
@@ -83,9 +90,5 @@ header {
 
     h3 {
         margin-top: 80px;
-    }
-
-    img {
-        max-width: 780px;
     }
 }
